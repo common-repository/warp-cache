@@ -1,0 +1,106 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .warp-cache-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: #64ace0;
+    padding-left: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.warp-cache-status.active {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    background: #7eca60;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.warp-cache-logo h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.warp-cache-speed-insights {
+    background: #fff;
+    display: flex;
+    text-align: center;
+}
+
+div#warp-cache-before {
+    width: 50%;
+    padding: 45px 0;
+    box-sizing: border-box;
+}
+
+div#warp-cache-after {
+    width: 50%;
+    padding: 45px 0;
+    box-sizing: border-box;
+}
+
+.warp-cache-speed-insights h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.warp-cache-speed-status {
+    font-size: 36px;
+    line-height: 60px;
+}
+
+#warp-cache-before-speed-status {
+    color: #e62b2b;
+}
+
+#warp-cache-after-speed-status {
+    color: #4ec120;
+}
+
+.warp-cache-suggestions {
+    /* margin-top: 30px; */
+    padding: 30px 25px;
+    box-sizing: border-box;
+    border-top: 5px solid #f1f1f1;
+}
+
+.warp-cache-suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding-left: 30px;
+    box-sizing: border-box;
+    line-height: 60px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: 1px solid #cecece;
+}
+
+.warp-cache-suggestion-button {
+    height: 100%;
+    padding: 0 60px;
+    background: #bd9728;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+div#warp-cache {
+    background: #fff;
+}
+
+div#warp-cache-suggestions h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    /* text-align: center; */
+}
